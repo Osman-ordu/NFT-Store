@@ -1,0 +1,35 @@
+   .logo {
+       margin: 0 auto;
+       margin-top: 30px;
+       margin-bottom: 50px;
+       display: block;
+       color: #0d2e43;
+       pointer-events: none;
+   }
+   @media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: logo-spin infinite 15s linear;
+    }
+  }
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+   .shop-now {
+
+       margin: 0 auto;
+       margin-top: 20px;
+       display: block;
+       padding: 15px 30px;
+       color: #0d2e43;
+   .shop-icon {
+    margin-left: 5px;
+    color:#0d2e43 ;
+   }
+
+   }
