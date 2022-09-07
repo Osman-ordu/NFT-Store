@@ -1,0 +1,30 @@
+export const nftArt = [
+    {
+        id:1,
+        nft:{
+            image:'./../../assets/image/artstatue.webp',
+            description:'test'
+        }
+    },
+    {
+        id:2,
+        nft:{
+            image:'./../../assets/image/artstatue.webp',
+            description:'test'
+        }
+    },
+    {
+        id:3,
+        nft:{
+            image:'./../../assets/image/artstatue.webp',
+            description:'test'
+        }
+    },
+    {
+        id:5,
+        nft:{
+            image:'./../../assets/image/artstatue.webp',
+            description:'test'
+        }
+    }
+]
