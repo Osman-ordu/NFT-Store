@@ -1,7 +1,6 @@
 import React from 'react'
 import Logo from './homeLogo'
 import './home.scss'
-import { AiOutlineExpand } from 'react-icons/ai';
 import { useState } from 'react';
 // import Header from './../header/header'
 import Main from './../main/main'
@@ -17,22 +16,19 @@ const Home = () => {
 
     return (
         <>
-            {show && show === !controllerSwitch ? null :
-                <Logo />
+            {
+                show && show === !controllerSwitch
+                    ? null
+                    : <Logo />
             }
-            {show && show === !controllerSwitch ? null :
-                <button
-                    onClick={showElement}
-                    type='button'
-                    className='btn shop-now'>LOOK<AiOutlineExpand className=',shop-icon' size={12} />
-                </button>}
-            {show === !controllerSwitch ?
-                <>
-                    {/* <Header /> */}
-                    <Main />
-                    {/* <Aside /> */}
-                    {/* <Footer /> */}
-                </> : null}
+            {
+                show && show === !controllerSwitch
+                    ? null
+                    : <button type='button' onClick={showElement} className='btn shop-now'>LOOK</button>
+            }
+            {show === !controllerSwitch
+                ? <Main />
+                : null}
         </>
     )
 }
