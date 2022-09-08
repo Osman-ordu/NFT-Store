@@ -1,0 +1,20 @@
+.btn-group {
+    display: flex;
+    width: 100%;
+    row-gap: 12px;
+    button {
+        color: #053032;
+        font-size: 1rem;
+        transition: all 0.3s;
+        &:hover {
+            background-color: rgba(0,0,0,.55);
+            color: rgba(0, 255, 255, 0.534);
+        }
+        
+    }
+    button:focus {
+        outline: none;
+        box-shadow: none;
+      }
+}
+
