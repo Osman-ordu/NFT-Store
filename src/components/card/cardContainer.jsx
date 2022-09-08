@@ -15,6 +15,7 @@ const CardContainer = ({ filter }) => {
                         image={item.nft.image}
                         price={item.nft.price}
                         coin={item.nft.coin}
+                        nftLink={item.nft.nftLink}
                     />
 
                 ))}

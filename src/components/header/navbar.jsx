@@ -14,7 +14,7 @@ const Header = () => {
                 <NavbarBrand href="/" className="me-auto">
                     <img className="logo-item" src={logo} alt='logo' />
                 </NavbarBrand>
-                <button onClick={toggleNavbar} type='button' className='btn shadow-none'><BiCode size={30} /></button>
+                <button onClick={toggleNavbar} type='button' className='btn btn-collapse shadow-none'><BiCode size={30} /></button>
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
                         <NavItem>

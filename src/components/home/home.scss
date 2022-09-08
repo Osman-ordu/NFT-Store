@@ -1,36 +1,45 @@
    .logo {
-       margin: 0 auto;
-       margin-top: 4rem;
-       margin-bottom: 8rem;
-       display: block;
-       color: #0d2e43;
-       pointer-events:auto  ;
+     margin: 0 auto;
+     margin-top: 4rem;
+     margin-bottom: 8rem;
+     display: block;
+     color: #0d2e43;
+     pointer-events: auto;
    }
+
    @media (prefers-reduced-motion: no-preference) {
-    .logo {
-      animation: logo-spin infinite 10s linear;
-    }
-  }
-  @keyframes logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
+     .logo {
+       animation: logo-spin infinite 10s linear;
+     }
+   }
+
+   @keyframes logo-spin {
+     from {
+       transform: rotate(0deg);
+     }
+
+     to {
+       transform: rotate(360deg);
+     }
+   }
 
    .shop-now {
 
-       margin: 0 auto;
-       margin-top: 20px;
-       display: block;
-       padding: 15px 30px;
-       color: #051a27;
-       font-weight: 700;
-   .shop-icon {
-    margin-left: 5px;
-    color:#0d2e43 ;
-   }
+     margin: 0 auto;
+     margin-top: 20px;
+     display: block;
+     padding: 15px 30px;
+     border: 1px solid #0d2e43;
+     letter-spacing: 3px;
+     color: #051a27;
+     font-weight: 700;
+
+     &:hover {
+      background-color: aqua;
+     }
+     .shop-icon {
+       margin-left: 5px;
+       color: #0d2e43;
+     }
 
    }

@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-const card = ({ id, name, image, price, coin }) => {
+const card = ({ id, name, image, price, coin, nftLink }) => {
   return (
     <>
-      <div className='card'>
+      <a href={nftLink} className='card'>
         <img className='nft-image' src={image} alt={name} />
         <div className='card-body'>
           <h4 className='nft-name'>{name + ' ' + '#' + id}</h4>
@@ -16,7 +16,7 @@ const card = ({ id, name, image, price, coin }) => {
           </div>
           <a className='buy-now' href="http://" target="_blank" rel="noopener noreferrer">buy now</a>
         </div>
-      </div>
+      </a>
     </>
 
   )

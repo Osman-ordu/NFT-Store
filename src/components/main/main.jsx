@@ -1,6 +1,7 @@
 import React from 'react'
-import Cards from '../card/cardContainer'
 import FilterButtons from '../filter-buttons/buttonGroup'
+import Cards from '../card/cardContainer'
+import Footer from '../footer/footer'
 import { useState } from 'react'
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
     <>
     <FilterButtons setFilter={setFilter} />
     <Cards filter={filter} />
+    <Footer/>
     </>
   )
 }
