@@ -1,14 +1,14 @@
    .logo {
        margin: 0 auto;
-       margin-top: 30px;
-       margin-bottom: 50px;
+       margin-top: 4rem;
+       margin-bottom: 8rem;
        display: block;
        color: #0d2e43;
-       pointer-events: none;
+       pointer-events:auto  ;
    }
    @media (prefers-reduced-motion: no-preference) {
     .logo {
-      animation: logo-spin infinite 15s linear;
+      animation: logo-spin infinite 10s linear;
     }
   }
   @keyframes logo-spin {
@@ -26,7 +26,8 @@
        margin-top: 20px;
        display: block;
        padding: 15px 30px;
-       color: #0d2e43;
+       color: #051a27;
+       font-weight: 700;
    .shop-icon {
     margin-left: 5px;
     color:#0d2e43 ;

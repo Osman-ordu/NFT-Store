@@ -1,25 +1,27 @@
 import React from 'react'
-import { nftItems } from '../../mock/bagDada'
+import { nftItems } from '../../mock/nftData'
 import Card from './card'
 import './card.scss'
 
-const cardContainer = () => {
+const CardContainer = ({ filter }) => {
     return (
-        <div className='card-container'>
-            {nftItems.map((item, index) => (
-                <Card
-                    key={index}
-                    id={item.id}
-                    name={item.nft.name}
-                    image={item.nft.image}
-                    history={item.nft.history}
-                    price={item.nft.price}
-                    coin={item.nft.coin}
-                />
+        <>
+            <div className='card-container'>
+                {filter && nftItems.map((item, index) => (
+                    <Card
+                        key={index}
+                        id={item.id}
+                        name={item.nft.name}
+                        image={item.nft.image}
+                        price={item.nft.price}
+                        coin={item.nft.coin}
+                    />
 
-            ))}
-        </div>
+                ))}
+            </div>
+        </>
+
     )
 }
 
-export default cardContainer
+export default CardContainer

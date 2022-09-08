@@ -1,10 +1,10 @@
 import React from 'react'
-import { GiBearFace } from "react-icons/gi";
+import logo from './../../assets/image/dadaclone.png'
 
 const homeLogo = () => {
   return (
     <>
-      <GiBearFace className='logo' size={300} />
+      <img className='logo' src={logo} alt={logo} style={{width:'300px'}} />
     </>
 
   )

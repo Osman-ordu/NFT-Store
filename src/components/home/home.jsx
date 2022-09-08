@@ -3,6 +3,10 @@ import Logo from './homeLogo'
 import './home.scss'
 import { useState } from 'react';
 import Main from './../main/main'
+import Header from '../header/navbar';
+
+
+
 const Home = () => {
     const controllerSwitch = false;
     const [show, setShow] = useState(controllerSwitch);
@@ -13,6 +17,7 @@ const Home = () => {
 
     return (
         <>
+
             {
                 show && show === !controllerSwitch
                     ? null
@@ -24,7 +29,10 @@ const Home = () => {
                     : <button type='button' onClick={showElement} className='btn shop-now'>LOOK</button>
             }
             {show === !controllerSwitch
-                ? <Main />
+                ? <>
+                    <Header />
+                    <Main />
+                </>
                 : null}
         </>
     )

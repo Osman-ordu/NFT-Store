@@ -1,11 +1,16 @@
 import React from 'react'
 import Cards from '../card/cardContainer'
-const main = () => {
+import FilterButtons from '../filter-buttons/buttonGroup'
+import { useState } from 'react'
+
+const Main = () => {
+  const [filter,setFilter] = useState({})
   return (
     <>
-    <Cards/>
+    <FilterButtons setFilter={setFilter} />
+    <Cards filter={filter} />
     </>
   )
 }
 
-export default main
+export default Main
