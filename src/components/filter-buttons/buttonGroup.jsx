@@ -18,12 +18,12 @@ const filterButtons = ({ setFilter }) => {
         <div className='btn-group'>
             <button onClick={filterRisingPrice} className='btn'>
                 <span>
-                    Fiyata göre(Artan)
+                Increasing by price
                 </span>
             </button>
             <button onClick={filterDecreasingPrice} className='btn'>
                 <span>
-                    Fiyata göre(Azalan)
+                Decreasing by price
                 </span>
             </button>
         </div>

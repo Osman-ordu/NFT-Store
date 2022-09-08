@@ -2,17 +2,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 13px;
-
+    row-gap: 10px;
+    column-gap: 10px;
     .card {
         display: flex;
-        flex-direction: column;
         width: 31%;
         border: none;
-        border-radius: 30px 10px;
+        text-decoration: none;
         margin: 5px;
         overflow: hidden;
-        transition: 0.5s;
+        transition: all 0.2s;
 
         &:hover {
             transform: scale(1.05);
@@ -59,4 +58,13 @@
         max-width: 100%;
     }
 
+}
+@media screen and (max-width: 700px) {
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+      .card {
+        width: 60%;
+    }
+  }
 }
