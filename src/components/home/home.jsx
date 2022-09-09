@@ -4,7 +4,7 @@ import './home.scss'
 import { useState } from 'react';
 import Main from './../main/main'
 import Header from '../header/navbar';
-
+import Footer from '../footer/footer';
 
 
 const Home = () => {
