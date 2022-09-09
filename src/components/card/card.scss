@@ -12,6 +12,7 @@
         margin: 5px;
         overflow: hidden;
         transition: all 0.2s;
+        box-shadow: 2px 6px 12px 0px #000;
 
         &:hover {
             transform: scale(1.05);

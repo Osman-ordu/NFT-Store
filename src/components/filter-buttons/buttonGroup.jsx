@@ -1,6 +1,7 @@
 import './buttonGroup.scss'
 import { nftItems } from '../../mock/nftData';
 
+
 const filterButtons = ({ setFilter }) => {
 
     const filterRisingPrice = () => {

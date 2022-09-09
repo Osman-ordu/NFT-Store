@@ -3,6 +3,8 @@ import './navbar.scss'
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarBrand, Nav, NavItem, NavLink, } from 'reactstrap';
 import { BiCode } from 'react-icons/bi';
+import { FaPaw } from 'react-icons/fa';
+
 
 const Header = () => {
     const [collapsed, setCollapsed] = useState(true);
@@ -18,11 +20,28 @@ const Header = () => {
                 <Collapse isOpen={!collapsed} navbar>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink className='fw-bold' href="/components/">Components</NavLink>
+                            <NavLink className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
+                                <FaPaw mx-4/> Home
+                            </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink className='fw-bold' href="https://github.com/reactstrap/reactstrap">
-                                GitHub
+                            <NavLink className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
+                                About <FaPaw mx-4/>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
+                            <FaPaw mx-4/> Contact
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="/components/">
+                                Collections <FaPaw mx-4/>
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
+                            <FaPaw mx-4/> GitHub 
                             </NavLink>
                         </NavItem>
                     </Nav>

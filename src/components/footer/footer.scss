@@ -1,8 +1,30 @@
 .footer {
-    background-color:rgba(0,0,0,.55);
+    background-color: rgba(0, 0, 0, .55);
+
     .link-item {
 
-        color:rgba(0, 255, 255, 0.534);
+        color: rgba(0, 255, 255, 0.534);
         text-decoration: none;
+    }
+
+    h5 {
+        color: #ffde59;
+    }
+
+    .social {
+        font-size: 24px;
+        color: #000;
+    }
+
+    .description {
+        font-weight: 900;
+        font-size: 22px;
+        color: #ffde59;
+        text-shadow: 2px 2px #000;
+    }
+
+    .mx-1 {
+        color: #ffde59;
+
     }
 }
