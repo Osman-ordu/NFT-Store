@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Osman-ordu.github.io/bag-dada/static/css/main.200e4678.css",
+    "main.js": "/Osman-ordu.github.io/bag-dada/static/js/main.9cae3d4d.js",
+    "static/media/dadaclone.png": "/Osman-ordu.github.io/bag-dada/static/media/dadaclone.ad55c8d6a4e7d0081334.png",
+    "index.html": "/Osman-ordu.github.io/bag-dada/index.html",
+    "main.200e4678.css.map": "/Osman-ordu.github.io/bag-dada/static/css/main.200e4678.css.map",
+    "main.9cae3d4d.js.map": "/Osman-ordu.github.io/bag-dada/static/js/main.9cae3d4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.200e4678.css",
+    "static/js/main.9cae3d4d.js"
+  ]
+}
