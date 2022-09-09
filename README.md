@@ -1,4 +1,14 @@
+<img width="945" alt="navbar" src="https://user-images.githubusercontent.com/92692879/189438732-ab9c097e-72b0-4abd-b9ce-6c6bf59957b5.png">
+<img width="353" alt="navbar-closed" src="https://user-images.githubusercontent.com/92692879/189438745-0ac429ed-6701-448b-9fdd-80b5f12b3a16.png">
+<img width="931" alt="head" src="https://user-images.githubusercontent.com/92692879/189438754-af890980-b9e6-4f11-935d-bd6460ceb078.png">
+<img width="743" alt="main" src="https://user-images.githubusercontent.com/92692879/189438848-b3bcafe3-8325-425f-97a4-46998cab696a.png">
+<img width="839" alt="footer-lg" src="https://user-images.githubusercontent.com/92692879/189438870-1481a3c3-410f-4ac2-884c-312f5e42ff40.png">
+
+
+
+
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
