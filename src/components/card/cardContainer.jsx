@@ -20,6 +20,7 @@ const CardContainer = ({ filter }) => {
 
                 ))}
             </div>
+
         </>
 
     )
