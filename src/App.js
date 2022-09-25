@@ -1,8 +1,8 @@
-import Home from "./components/home/home";
+import EntranceArea from "./components/home/entranceArea";
 function App() {
   return (
     <>
-   <Home/>
+   <EntranceArea/>
     </>
   );
 }

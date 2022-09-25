@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Fira+Code:wght@300;400;500;600;700&display=swap');
 
+
+$back-ground :#03989e;
+$font-type : 'Fira Code',monospace;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +11,8 @@
 }
 
 body {
-  font-family: 'Fira Code', monospace;
+  font-family:$font-type;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #03989e;
+  background-color: $back-ground;
 }
