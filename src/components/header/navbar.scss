@@ -1,28 +1,44 @@
 .navbar-container {
     .navbar-nav {
         row-gap: 4px;
-        .nav-link{
-            background-color:#212529;
+
+        .nav-link {
+            background-color: #212529;
             color: rgba(0, 255, 255, 0.534);
             transition: all 0.4s;
+
+            .active {
+                color: brown;
+            }
+
             &:hover {
                 background-color: rgba(0, 255, 255, 0.534);
                 color: #212529;
             }
-                }
+        }
     }
+
     .logo-item {
         width: 80px;
     }
+
     .btn-collapse {
-        border: 2px solid rgba(0,0,0,.55);
-        color: rgba(0,0,0,.55);
+        border: 2px solid rgba(0, 0, 0, .55);
+        color: rgba(0, 0, 0, .55);
         transition: all 0.5s;
-        
+
         &:hover {
-            background-color: rgba(0,0,0,.55);
+            background-color: rgba(0, 0, 0, .55);
             color: rgba(0, 255, 255, 0.534);
         }
-      
+
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link.active {
+            color: #FFDE59;
+        }
     }
 }

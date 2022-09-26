@@ -39,9 +39,17 @@ export const pageFragments = [
             content: 'Depending on what you want to buy, it is possible to access NFTs from different platforms. There are different platforms for NFTs, from special sites for card collectors to online accessories for video games. NBA Top Shot, Open Sea, SuperRare, Nifty Gateaway and Binance are among the most well-known of these platforms. NFT sales on these and similar platforms are generally made by auction and bidding method. You need a digital wallet for all these transactions.'
 
         },
+    },
+    {
+        id: getDataId(),
+        fragment: {
+            title: 'Why Buy NFT?',
+            image: 'https://i0.wp.com/kriptokoin.com/wp-content/uploads/2021/08/610abebd026e528d82094bb1_EFI-ENJ-NFT-ownership_illu.png?resize=1024%2C677&ssl=1',
+            content: 'You may have question marks in your mind about buying something that you can easily access in the digital environment. For example, if the NFT you are interested in is a jpeg file; You may think that you can easily find it through a search engine. Moreover, you can have the image you find by saving it to your computer. But you need to know that what you have is a "copy". By purchasing NFT, you get the original of the work. The blockchain system also works to verify the authenticity of the NFT. By purchasing an NFT that matches a single and unique code over the Ethereum system, you are purchasing the privilege of being the sole owner of the product. To make an artistic analogy, instead of buying a Van Gogh reproduction, you can experience the happiness of owning the original.'
+
+        },
     }
 ]
-
 
 export const nftItems = [
     {

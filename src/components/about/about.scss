@@ -1,0 +1,23 @@
+.about {
+    .container-sm {
+        display: flex;
+        flex-direction: row;
+        column-gap: 30px;
+        .text-area {
+            max-width: 40%;
+
+        }
+    }
+}
+
+@media screen and (max-width: 991px){
+  .about{
+    .container-sm {
+        flex-direction: column;
+        .text-area {
+            max-width: 100%;
+
+        }
+    }
+  }
+}

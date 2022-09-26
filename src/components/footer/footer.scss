@@ -28,3 +28,16 @@
 
     }
 }
+
+ul {
+    li {
+        .link-item {
+            .social {
+                color:#ffde59;
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}
