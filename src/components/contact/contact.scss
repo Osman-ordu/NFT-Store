@@ -1,0 +1,17 @@
+.contact {
+    .container-sm {
+        .contact-wrapper {
+            .icons-group {
+                a {
+                    color: #FFDE59;
+                    opacity: 0.6;
+                    transition: all 0.3s;
+                    &:hover {
+                        opacity: 0.9;
+
+                    }
+                }
+            }
+        }
+    }
+}
