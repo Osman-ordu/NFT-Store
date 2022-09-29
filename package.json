@@ -1,5 +1,5 @@
 {
-  "homepage": "https://osman-ordu.github.io/bag-dada/",
+  "homepage": "https://bag-dada.vercel.app/",
   "name": "bag-dada",
   "version": "0.1.0",
   "private": true,
@@ -46,7 +46,6 @@
   },
   "devDependencies": {
     "eslint": "^8.23.0",
-    "eslint-plugin-react": "^7.31.7",
-    "gh-pages": "^4.0.0"
+    "eslint-plugin-react": "^7.31.7"
   }
 }
