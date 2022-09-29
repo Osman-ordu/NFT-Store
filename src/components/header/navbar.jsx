@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <>
             <Navbar className='navbar-container sticky-top' color="faded" light>
-                <NavbarBrand to="/homepage" className="me-auto">
+                <NavbarBrand  className="me-auto">
                     <img className="logo-item" src={logo} alt='logo' />
                 </NavbarBrand>
                 <button onClick={toggleNavbar} type='button' className='btn btn-collapse shadow-none'><BiCode size={30} /></button>
@@ -36,7 +36,7 @@ const Header = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='product' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="/components/">
+                            <NavLink to='/product' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="/components/">
                                 Collections <FaPaw mx-4/>
                             </NavLink>
                         </NavItem>

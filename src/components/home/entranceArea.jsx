@@ -1,10 +1,9 @@
 import React from 'react'
-import {Routes, Route,  NavLink} from 'react-router-dom'
+import { Routes, Route, NavLink } from 'react-router-dom'
 import Logo from './logo'
 import './home.scss'
 import { useState } from 'react';
 import HomePage from '../home/homePage'
-import Product from '../card/product';
 
 
 const EntranceArea = () => {
@@ -30,6 +29,7 @@ const EntranceArea = () => {
             }
             {show === !controllerSwitch
                 ? <>
+
                     <HomePage />
                     {/* <Product/> */}
                 </>

@@ -1,10 +1,12 @@
 import React from 'react'
 import './about.scss'
 import Footer from '../footer/footer'
+import Header from '../header/navbar'
 
 const about = () => {
     return (
        <>
+       <Header/>
         <div className='about'>
             <div className='container-sm'>
                 <div className='text-area'>

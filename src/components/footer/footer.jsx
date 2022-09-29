@@ -15,9 +15,9 @@ const footer = () => {
 
   return (
     <>
-      <div className="container my-5">
+      <div className="container-fluid g-0">
         <footer className="footer text-center text-lg-start text-white">
-          <div className="container p-4">
+          <div className="container-fluid">
             <div className="row my-4">
               <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <div className="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style={{ width: '120px', height: '120px' }}>
@@ -81,7 +81,7 @@ const footer = () => {
             </div>
           </div>
 
-          <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+          <div className="text-center p-3" >
             © 2022 Copyright:
             <NavLink className="text-white" to="https://www.linkedin.com/in/osmanordutr/">Linkedin</NavLink>
           </div>
