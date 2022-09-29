@@ -4,6 +4,14 @@
     flex-direction: column;
     background-color: #00000018;
 
+    h3 {
+        transition: all 0.3s;
+        &:hover {
+            scale: 1.2;
+        }
+
+    }
+
     .content-area {
         display: flex;
         row-gap: 10px;
@@ -13,9 +21,11 @@
         flex-wrap: wrap;
         padding: 20px;
 
+
         img {
             max-width: 40%;
             box-shadow: 1px 1px 0px 5px #000;
+
 
 
         }

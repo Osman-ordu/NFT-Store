@@ -1,3 +1,26 @@
+   .entrance-area {
+    img {
+      width:48%;
+      border-radius: 22px;
+      opacity: 0.7;
+      transition: all 0.4s;
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+   }
+   @media screen and (max-width:991px ) {
+  .entrance-area {
+    img {
+      width: 100%;
+      
+    }
+    .show {
+      display: none;
+    }
+  }
+   }
    .logo {
      width: 300px;
      margin: 0 auto;

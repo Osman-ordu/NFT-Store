@@ -31,13 +31,13 @@ const Header = () => {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/contact' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
-                            <FaPaw mx-4/> Contact
+                            <NavLink to='/product' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="/components/">
+                                Collections <FaPaw mx-4/>
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink to='/product' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="/components/">
-                                Collections <FaPaw mx-4/>
+                            <NavLink to='/contact' className='nav-link fw-bold border border-dark border-1 rounded p-2 text-center' href="https://github.com/reactstrap/reactstrap">
+                            <FaPaw mx-4/> Contact
                             </NavLink>
                         </NavItem>
                     </Nav>

@@ -18,7 +18,7 @@ const footer = () => {
       <div className="container-fluid g-0">
         <footer className="footer text-center text-lg-start text-white">
           <div className="container-fluid">
-            <div className="row my-4">
+            <div className="row my-4 align-items-center">
               <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <div className="rounded-circle  shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style={{ width: '120px', height: '120px' }}>
                   <img src={logo} className='logo' alt="logo" loading="lazy" style={{ width: '200px' }} />

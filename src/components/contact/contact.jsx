@@ -4,7 +4,6 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { AiOutlinePhone } from 'react-icons/ai'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { AiFillMediumSquare } from 'react-icons/ai'
-import { NavLink } from 'react-router-dom'
 import Header from '../header/navbar'
 import Footer from '../footer/footer'
 
@@ -14,30 +13,31 @@ const contact = () => {
       <Header />
       <div className='contact'>
         <div className='container-sm'>
-          <div className='contact-wrapper mt-4'>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-              nihil veritatis error aperiam? Fuga facere doloremque officiis dolores,
-              ipsum reprehenderit officia eaque expedita hic et suscipit amet natus velit
-              inventore qui in nemo laudantium perspiciatis sunt illo. Quibusdam, porro molestias?
-            </p>
-            <div className='icons-group d-flex gap-2 justify-content-center align-items-center mt-5 flex-wrap  '>
-              <a href="mailto: orduosmann@gmail.com">
-                <AiOutlineMail size={100} />
+          <div className='contact-content-area'>
+            <div className='icon-wrapper icons-group'>
+              <a href="mailto: orduosmann@gmail.com" >
+                <AiOutlineMail size={140} />
               </a>
-              <a href="tel:+5436485164">
-                <AiOutlinePhone size={100} />
+              <a href="tel:+5436485164" >
+                <AiOutlinePhone size={140} />
               </a>
-              <NavLink to='https://www.linkedin.com/in/osmanordutr/'>
-                <AiOutlineLinkedin size={100} />
-              </NavLink>
-              <NavLink to='https://medium.com/@orduosmanns'>
-                <AiFillMediumSquare size={100} />
-              </NavLink>
+              <a href='https://www.linkedin.com/in/osmanordutr/' target='_blank' rel='noopener noreferrer'>
+                <AiOutlineLinkedin size={140} />
+              </a>
+              <a href='https://medium.com/@orduosmann' target='_blank' rel='noopener noreferrer'>
+                <AiFillMediumSquare size={140} />
+              </a>
             </div>
+            <img className='img-fluid' loading='lazy' src="https://cdn.dribbble.com/users/914004/screenshots/5971597/media/ddf37a78ed787d8620f04084f1cabada.gif" alt="" />
+            <img className='img-fluid' loading='lazy' src="https://cdn.dribbble.com/users/914004/screenshots/14413778/media/5f2fd2c218f5262cd5373f964131e2e9.gif" alt="" />
+          </div>
+          <div className='contact-text-area'>
+            <h4 className='text-center m-4 p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde ea cum sint dolor, eveniet hic minima ipsum nesciunt saepe.</h4>
+            <h4 className='mb-4 p-4 text-end' >THANK YOU GOODBYE.</h4>
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
 
   )

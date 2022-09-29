@@ -1,17 +1,58 @@
 .contact {
     .container-sm {
-        .contact-wrapper {
-            .icons-group {
-                a {
-                    color: #FFDE59;
-                    opacity: 0.6;
-                    transition: all 0.3s;
-                    &:hover {
-                        opacity: 0.9;
+        .contact-content-area {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            gap: 10px;
 
+            .icons-group {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                a {
+                    color: #000000d2;
+                    opacity: 0.9;
+                    transition: all 0.5s;
+                    margin: 10px;
+
+                    &:hover {
+                        color: #BDD642;
+                        opacity: 1;
+                        scale: 1.2;
                     }
                 }
             }
+
+            img {
+                width: 49%;
+                border-radius: 22px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contact {
+        .container-sm {
+            .contact-content-area {
+                img {
+                    width: 100%;
+
+                }
+                .show {
+                    display: none;
+                }
+
+            }
+
+
+
         }
     }
 }
